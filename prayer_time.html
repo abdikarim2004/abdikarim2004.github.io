@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mosque Medina</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E<link rel=" preconnect"
+    href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  
+  <link rel="stylesheet" href="prayer_time.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="/index.html"> Mosque Medina</a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="prayer_time.html ">Prayer Time</a>
+        </li>
+        <li>
+            <li>
+              <a href="about_us.html">About</a>
+            </li>
+    </nav>
+  </div>
+</section>
+
+<section class="main-section">
+    <h1 class="main-section-header"> Prayer time for 2023</h1>
+</section>
+
+<section class="BODY">
+<section class="timetable">
+<div class="buttons">
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)"><--Previous</button>
+    <a href="/prayer-time-table.pdf" class="download-button" download="lunar-hijri-calendar.pdf">Download PDF </a>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">Next--></button>
+</div>
+
+<div class="w3-content w3-display-container">
+      <img class="mySlides" src="/prayer_pictures/lunar-hijri-calendar_01.png">
+      <img class=" mySlides" src="/prayer_pictures/lunar-hijri-calendar_02.png">
+      <img class=" mySlides" src="/prayer_pictures/lunar-hijri-calendar_03.png">
+      <img class=" mySlides" src="/prayer_pictures/lunar-hijri-calendar_04.png">
+      <img class=" mySlides" src="/prayer_pictures/lunar-hijri-calendar_05.png">
+      <img class=" mySlides" src="/prayer_pictures/lunar-hijri-calendar_06.png">
+      <img class=" mySlides" src="/prayer_pictures/lunar-hijri-calendar_07.png">
+      <img class=" mySlides" src="/prayer_pictures/lunar-hijri-calendar_08.png">
+      <img class=" mySlides" src="/prayer_pictures/lunar-hijri-calendar_09.png">
+      <img class=" mySlides" src="/prayer_pictures/lunar-hijri-calendar_10.png">
+      <img class=" mySlides" src="/prayer_pictures/lunar-hijri-calendar_11.png">
+      <img class=" mySlides" src="/prayer_pictures/lunar-hijri-calendar_12.png">
+    
+      
+</div>
+
+<script>	
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</section>
+
+</section>
+
+<!-- Site footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Page links</h6>
+        <ul class="footer-links">
+          <li><a href="prayer_time.html">Prayer Time</a></li>
+          <li><a href="about_us.html">About us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Info</h6>
+        <ul class="footer-links">
+          <li><i class="fa-solid fa-phone"></i><a href="tel:+358 12 345 6789">&nbsp +358 12 345 6789</a></li>
+
+          <li><i class="fa-solid fa-envelope"></i><a href = "mailto: madina.masjid.turku@gmail.com">&nbsp Contact Us</a></li>
+
+          <li><i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/hibiMss59dVj8okaA">&nbsp Address</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+     <a>Abdikarim & Furqan</a>.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="https://www.facebook.com/madinaturku"><i class="fa fa-facebook"></i></a></li>  
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- partial -->
+
+</body>
+</html>
