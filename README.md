@@ -28,5 +28,5 @@ Given the chance to redo this project, I would:
 
   ## Contributors
 
-- [Abdikarim Mohamud]
+- [Abdikarim Mohamud](https://github.com/abdikarim2004)
 - [Furqan Noor](https://github.com/FurqanNoor)
