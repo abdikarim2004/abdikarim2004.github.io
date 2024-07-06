@@ -25,3 +25,8 @@ Given the chance to redo this project, I would:
 - Build a functional backend that would enhance the websites usability
 - Ensure the website is fully responsive and accessible
 - Apply modern development frameworks and tools
+
+  ## Contributors
+
+- [Abdikarim Mohamud]
+- [Furqan Noor](https://github.com/FurqanNoor)
